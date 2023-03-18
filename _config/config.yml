@@ -5,3 +5,7 @@ Firesphere\MultiColumn\Elements\MultiColumnElement:
   config:
     start: 1
     end: 12
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\ORM\FieldType\DBHTMLText:
+    properties:
+      ProcessShortcodes: true
