@@ -1,0 +1,28 @@
+{
+  "name": "firesphere/multicolumn-element",
+  "description": "Silverstripe Elemental configurable width two-columns",
+  "minimum-stability": "stable",
+  "license": "BSD-3-Clause",
+  "type": "silverstripe-vendormodule",
+  "authors": [
+    {
+      "name": "firesphere",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "dnadesign/silverstripe-elemental": "^4",
+    "firesphere/rangefield": "^1"
+  },
+  "extra": {
+    "branch-alias": {
+      "1.x-dev": "1.0.x-dev",
+      "dev-master": "1.x-dev"
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Firesphere\\Multicolumn\\": "src"
+      }
+    }
+  }
+}

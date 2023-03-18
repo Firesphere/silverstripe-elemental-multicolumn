@@ -1,0 +1,7 @@
+---
+name: multicolumn-config
+---
+Firesphere\MultiColumn\Elements\MultiColumnElement:
+  config:
+    start: 1
+    end: 12
